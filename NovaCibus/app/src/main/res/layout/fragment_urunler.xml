@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:background="@color/backgraundcolor2"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/text1_hakkinda"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="40dp"
+                android:paddingBottom="20dp"
+                android:text="ÜRÜNLERİMİZ"
+                android:textColor="@color/green"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="80dp"
+                android:src="@drawable/domates"/>
+
+            <Button
+                android:id="@+id/domates"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Domates 12.50TL"
+                android:textColor="@color/white"
+                android:background="@color/green"
+                android:textSize="30sp"
+                android:layout_gravity="center"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="80dp"
+                android:src="@drawable/biberiye"/>
+
+            <Button
+                android:id="@+id/biberiye"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Biberiye 7.99TL"
+                android:textColor="@color/white"
+                android:background="@color/green"
+                android:textSize="30sp"
+                android:layout_gravity="center"
+                android:onClick="urun1"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="80dp"
+                android:src="@drawable/elma"/>
+
+            <Button
+                android:id="@+id/elma"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Yeşil Elma  8.99TL"
+                android:textColor="@color/white"
+                android:background="@color/green"
+                android:textSize="30sp"
+                android:layout_gravity="center"
+                android:onClick="urun2"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="80dp"
+                android:src="@drawable/kuskonmaz"/>
+
+            <Button
+                android:id="@+id/kuskonmaz"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Kuşkonmaz 48.99TL"
+                android:textColor="@color/white"
+                android:background="@color/green"
+                android:textSize="30sp"
+                android:layout_gravity="center"
+                android:onClick="urun3"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="80dp"
+                android:src="@drawable/lahana2"/>
+
+            <Button
+                android:id="@+id/lahana"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Brüksel Lahanası 15.99TL"
+                android:textColor="@color/white"
+                android:background="@color/green"
+                android:textSize="30sp"
+                android:layout_gravity="center"
+                android:onClick="urun4"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="80dp"
+                android:src="@drawable/bogurtlen4"/>
+
+            <Button
+                android:id="@+id/bogurtlen"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Böğürtlen 20.99TL"
+                android:textColor="@color/white"
+                android:background="@color/green"
+                android:textSize="30sp"
+                android:layout_gravity="center"
+                android:onClick="urun5"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="80dp"
+                android:src="@drawable/recel2"/>
+
+            <Button
+                android:id="@+id/recel"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Böğürtlen Reçeli 25.99TL"
+                android:textColor="@color/white"
+                android:background="@color/green"
+                android:textSize="30sp"
+                android:layout_gravity="center"
+                android:onClick="urun6"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="80dp"
+                android:src="@drawable/havuc"/>
+
+            <Button
+                android:id="@+id/havuc"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Havuç 4.99TL"
+                android:textColor="@color/white"
+                android:background="@color/green"
+                android:textSize="30sp"
+                android:layout_gravity="center"
+                android:onClick="urun7"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="80dp"
+                android:src="@drawable/gunkurusu"/>
+
+            <Button
+                android:id="@+id/gunkurusu"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Gün Kurusu 50.99TL"
+                android:textColor="@color/white"
+                android:background="@color/green"
+                android:textSize="30sp"
+                android:layout_gravity="center"
+                android:onClick="urun8"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="80dp"
+                android:src="@drawable/noni1"/>
+
+            <Button
+                android:id="@+id/noni"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="NONİ 40.00TL"
+                android:textColor="@color/white"
+                android:background="@color/green"
+                android:textSize="30sp"
+                android:layout_gravity="center"
+                android:onClick="urun10"/>
+
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="400dp"
+                android:layout_marginTop="100dp"
+                android:padding="20dp"
+                android:layout_gravity="center"
+                android:src="@drawable/logo"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

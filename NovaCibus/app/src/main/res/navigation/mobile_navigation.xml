@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.novacibus.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.novacibus.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.novacibus.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_hakkinda"
+        android:name="com.example.novacibus.ui.hakkinda.HakkindaFragment"
+        android:label="Hakkinda"
+        tools:layout="@layout/fragment_hakkinda" />
+
+    <fragment
+        android:id="@+id/nav_yk"
+        android:name="com.example.novacibus.ui.yk.YkFragment"
+        android:label="YK"
+        tools:layout="@layout/fragment_yk" />
+
+    <fragment
+        android:id="@+id/nav_iletisim"
+        android:name="com.example.novacibus.ui.iletisim.IletisimFragment"
+        android:label="İletisim"
+        tools:layout="@layout/activity_iletisim" />
+
+    <fragment
+        android:id="@+id/nav_blog"
+        android:name="com.example.novacibus.ui.blog.BlogFragment"
+        android:label="Blog"
+        tools:layout="@layout/fragment_blog" />
+
+    <fragment
+        android:id="@+id/nav_urunler"
+        android:name="com.example.novacibus.ui.urunler.UrunlerFragment"
+        android:label="Urunler"
+        tools:layout="@layout/fragment_urunler" />
+
+    <fragment
+        android:id="@+id/nav_okul"
+        android:name="com.example.novacibus.ui.okul.OkulFragment"
+        android:label="İstekte Bulun"
+        tools:layout="@layout/fragment_okul" />
+</navigation>

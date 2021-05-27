@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:background="@color/backgraundcolor2"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/text1_yk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="40dp"
+                android:paddingBottom="60dp"
+                android:text="YÖNETİM KURULU"
+                android:textColor="@color/green"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="350dp"
+                android:layout_height="350dp"
+                android:layout_gravity="center"
+                android:src="@mipmap/app_logo" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="10dp"
+                android:text="..."
+                android:textColor="@color/green"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Genel Müdür &amp; Mali İşler Müdürü"
+                android:textColor="@color/green"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text2_yk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="10dp"
+                android:paddingBottom="50dp"
+                android:text="ODTÜ İktisat Bölümü mezunu ... mezun olduktan sonra Merkez Bankasında çalışmaya başlamış ve orada Ar-ge müdürümüz ... ile tanışıp Nova Cibus'u kurmayı planlamaya başlamışlar. İki kedisi ve üç köpeği olan ... tam bir doğa düşkünü."
+                android:textColor="@color/green"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="350dp"
+                android:layout_height="350dp"
+                android:layout_gravity="center"
+                android:src="@mipmap/app_logo"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="10dp"
+                android:text="..."
+                android:textColor="@color/green"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Teknoloji Müdürü"
+                android:textColor="@color/green"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text3_yk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="20dp"
+                android:paddingBottom="50dp"
+                android:text="İzmir Kavram Meslek Yüksekokulu Bilgisayar Programcılığından mezun olan ..., uzun yıllar yapay zeka alanında çalıştıktan sonra altı arkadaşıyla Nova Cibus'u kurmuştur. ..., ekibin teknolojik dehası ve en eğlenceli olan bireyidir."
+                android:textColor="@color/green"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="350dp"
+                android:layout_height="350dp"
+                android:layout_gravity="center"
+                android:src="@mipmap/app_logo"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="10dp"
+                android:text="..."
+                android:textColor="@color/green"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Üretim ve Tedarik Zinciri Müdürü"
+                android:textColor="@color/green"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text4_yk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="20dp"
+                android:paddingBottom="50dp"
+                android:text="ODTÜ Bilgisayar ve Öğretim Teknolojilerinden mezun olan ... ekibimizin en çok yönlü kişisidir. Sanat, bilgisayar yazılımı, profesyonel gezginlik ve fotoğrafçılık gibi hobilere sahip ... MIT'de aldığı yüksek lisans eğitiminden sonra altı arkadaşıyla Nova Cibus'u kurmuştur."
+                android:textColor="@color/green"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="350dp"
+                android:layout_height="350dp"
+                android:layout_gravity="center"
+                android:src="@mipmap/app_logo"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="10dp"
+                android:textAlignment="center"
+                android:text="..."
+                android:textColor="@color/green"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Satış ve Pazarlama Müdürü"
+                android:textColor="@color/green"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text5_yk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="20dp"
+                android:paddingBottom="50dp"
+                android:text="Ekibimizin en planlı ve belki de en düzenli kişisi olan ... ODTÜ İşletme bölümü mezunudur. Global bir firmada dört sene boyunca Satış alanında çalışan ... kendi hayalleri için işini bırakıp Nova Cibus'u kurmaya karar vermiştir.Müzikle çok ilgili olan ... bir müzik grubu bulunmaktadır."
+                android:textColor="@color/green"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="350dp"
+                android:layout_height="350dp"
+                android:layout_gravity="center"
+                android:src="@mipmap/app_logo"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="10dp"
+                android:text="..."
+                android:textColor="@color/green"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="İnsan Kaynakları Müdürü"
+                android:textColor="@color/green"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text6_yk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="20dp"
+                android:paddingBottom="50dp"
+                android:text="ODTÜ İşletme Bölümü mezunu ..., İngiltere'de Harvard Üniversitesinde Yüksek Lisans yaptıktan sonra altı arkadaşıyla hayallerindeki organik gıda işi için global ve kurumsal bir firmadaki işini bırakıp Nova Cibus'un kurulmasında yer almıştır."
+                android:textColor="@color/green"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="350dp"
+                android:layout_height="350dp"
+                android:layout_gravity="center"
+                android:src="@mipmap/app_logo"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="10dp"
+                android:text="..."
+                android:textColor="@color/green"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Ar-Ge Müdürü"
+                android:textColor="@color/green"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text7_yk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="20dp"
+                android:paddingBottom="50dp"
+                android:text="Ar-ge Müdürümüz ... Süleyman Demirel Üniversitesi Bankacılık ve Sigortacılık bölümü mezunudur. Mezun olduktan sonra beş yıl süreyle Türkiye Merkez Bankasında uzmanlık yaptıktan sonra hayalindeki girişimi altı arkadaşıyla gerçeğe taşımıştır. ... ayrıca Boğaziçi Üniversitesinde Para Politikası üzerine dersler vermektedir. ... dört akademik yayını vardır."
+                android:textColor="@color/green"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="350dp"
+                android:layout_height="350dp"
+                android:layout_gravity="center"
+                android:src="@mipmap/app_logo"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="10dp"
+                android:text="..."
+                android:textColor="@color/green"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Kalite Güvence Müdürü"
+                android:textColor="@color/green"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text8_yk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="20dp"
+                android:paddingBottom="50dp"
+                android:text="Hacettepe Gıda Mühendisliğinden mezun olan ..., Berlin Teknik Üniversitesi Kimya Mühendisliği Bölümünde yüksek lisans yaparken kendi markası FreshJams Adlı girişimini gerçekleştirmiş ve halen aktif olan markasıyla dünyanın dört bir yanını Anadolumuzun reçelleriyle tanıştırmıştır. ... ayrıca Nova Cibus'un altı kurucu üyesinden biri."
+                android:textColor="@color/green"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            ></LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

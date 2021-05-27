@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:background="@color/backgraundcolor"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/text1_hakkinda"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="40dp"
+                android:paddingBottom="20dp"
+                android:text="HAKKINDA"
+                android:textColor="@color/yellow"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text2_hakkinda"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Adını latince aniden parlayan yıldızdan alan Nova Cibus 1999 yılında kuruldu. 2024 yılında da organik tarım sektörüne sebze, meyve ve bunların türevi paketli ürünlerle girmiş, özellikle İstanbul, Ankara ve İzmir tüketicilerinin yoğun beğenisiyle karşılaşmıştır."
+                android:textColor="@color/white"
+                android:paddingBottom="50dp"
+                android:textAlignment="center"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text3_hakkinda"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="20dp"
+                android:text="DEĞERLERİMİZ"
+                android:textColor="@color/yellow"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text4_hakkinda"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="30dp"
+                android:paddingBottom="10dp"
+                android:text="ORGANİK"
+                android:textColor="@color/white"
+                android:background="@color/orange"
+                android:textAlignment="center"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/text5_hakkinda"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Tüketicilerimizin sağlıklı meyve ve sebze talebini karşılamak ve onlara en iyisini yapmak için organik ve taze taraftarıyız. "
+                android:textColor="@color/white"
+                android:background="@color/orange"
+                android:paddingBottom="40dp"
+                android:textAlignment="center"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/text6_hakkinda"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@color/red"
+                android:paddingTop="30dp"
+                android:paddingBottom="10dp"
+                android:text="SÜRDÜRÜLEBİLİR"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text7_hakkinda"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Üretirken bir yandan da doğa anamıza sahip çıkmak ve gelecek nesillere daha sağlıklı ve mutlu bir dünya bırakmak için çalışıyoruz."
+                android:textColor="@color/white"
+                android:background="@color/red"
+                android:paddingBottom="40dp"
+                android:textAlignment="center"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/text8_hakkinda"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@color/blue"
+                android:paddingTop="30dp"
+                android:paddingBottom="10dp"
+                android:text="TEKNOLOJİ"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text9_hakkinda"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Yüksek teknolojiye geçerek hem üretimimizi arttırıyor hem de kalite güvencemizi oluşturuyoruz. Olumsuz şartları bilimle aşıyoruz."
+                android:textColor="@color/white"
+                android:background="@color/blue"
+                android:paddingBottom="40dp"
+                android:textAlignment="center"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/text10_hakkinda"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@color/green2"
+                android:paddingTop="30dp"
+                android:paddingBottom="10dp"
+                android:text="ÇALIŞANLAR"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text11_hakkinda"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Çalışanlarımızın mutluluğunu önemsiyor, onlar olmadan var olamayacağımızı vurguluyoruz. Çiftçimize istediği desteği veriyoruz."
+                android:textColor="@color/white"
+                android:background="@color/green2"
+                android:paddingBottom="40dp"
+                android:textAlignment="center"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/text12_hakkinda"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="30dp"
+                android:paddingBottom="20dp"
+                android:text="MİSYONUMUZ"
+                android:textColor="@color/yellow"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text13_hakkinda"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Nova Cibus, organik (taze) meyve ve sebzeleri üreticiden tüketiciye ulaştırırken hem gelecek nesillere daha sağlıklı bir toplum bırakmayı amaçlayan hem de ‘daha barışçıl doğa ve daha tutkulu insan anlayışı’yla çalışanlarına saygılı olan ve daima ileriyi hedefleyen bir firmadır."
+                android:textColor="@color/white"
+                android:paddingBottom="50dp"
+                android:textAlignment="center"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text14_hakkinda"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="30dp"
+                android:paddingBottom="20dp"
+                android:text="VİZYONUMUZ"
+                android:textColor="@color/yellow"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text15_hakkinda"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Faaliyet gösterilen her pazarda, güçlü tedarikçi ve hedeflediğimiz kategorilerde lider marka olarak ürünlerimizi herkese ulaşılabilir kılmak."
+                android:textColor="@color/white"
+                android:paddingBottom="50dp"
+                android:textAlignment="center"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text16_hakkinda"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="30dp"
+                android:paddingBottom="20dp"
+                android:text="MOTTOMUZ"
+                android:textColor="@color/yellow"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text17_hakkinda"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="'Ana doğadan, insana'
+
+
+                              Biz çalışanlarımız için de doğanın kalbindeki sadelik ve verimliliği esas almayı ilke edindik.
+
+"
+                android:textColor="@color/white"
+                android:paddingBottom="50dp"
+                android:textAlignment="center"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="400dp"
+                android:paddingBottom="20dp"
+                android:layout_gravity="center"
+                android:src="@drawable/logo">
+            </ImageView>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

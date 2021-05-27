@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_marginBottom="20dp"
+            android:background="@color/gray">
+
+            <ImageButton
+                android:id="@+id/btnback"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:src="@drawable/ic_baseline_arrow_back_24"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:paddingTop="20dp"
+                android:gravity="center"
+                android:text="Ispanaklar Miyase Hala'dan"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="300dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:src="@drawable/teyze"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                android:gravity="center"
+                android:textAlignment="textStart"
+                android:lineSpacingExtra="10dp"
+                android:text="Genel Müdürümüz Nazlım Elif Arslan'ın emektar Halası Miyase Hala'nın sizlere diyecekleri var.
+Küçük üreticileri destekleyen NovaCibus, bu yolculuğa başlarken hem üreticiyi hem de tüketiciyi destekleyen; organik gıdaya erişimin lüks değil bir hak olduğunu savunuyor.
+Zirai ilaçların toprağa ve insan vücuduna verdiği zararlar son yıllarda yapılan araştırmalarla desteklenmiştir. Ancak artan nufüs da talebin arz karşısında yetersiz kalmasına ve gıda sektöründe bazı hilelere neden oluyor. Ancak bizler NovaCibus olarak Organik Tarımın doğru destek ve politikalarla geniş kitlelerce ulaşabileceğini düşünüyoruz.
+Emekli Kütüphane Memuru Miyase Ulukent, 2002 yılından beri bir ineği, iki keçisi ve tarlası ile organik tarım ve hayvancılık ile uğraşıyor. Her sene ektiği tohumların geçmiş kuşaklardan kendisine miras kaldığından bahsediyor. Salatalığın, domatesin kokusu aynı değil, aslına bakarsanız hiçbir şey eskisi gibi değil, diyor. "/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="300dp"
+                android:paddingBottom="20dp"
+                android:src="@drawable/logo"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

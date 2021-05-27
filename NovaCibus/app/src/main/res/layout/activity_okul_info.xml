@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OkulInfo"
+    android:background="@color/backgraundcolor2"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+    <ImageButton
+        android:id="@+id/infogeri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_arrow_back_24"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nova Garden projesi, yaşları 4 ile 6 arasında değişen ana sınıfı öğrencilerinin, haftalık bir öğününü karşılamak amacı ile hayata geçmiştir."
+        android:textColor="@color/green"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:paddingTop="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Maslow'un gelişim piramidine dayanan projemizin asıl hedefi; piramidin temelinde bulunan fizyolojik ihtiyaçları karşılamaktır."
+        android:textColor="@color/green"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:paddingTop="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Öğrenciler Nova Garden ile hem sağlıklı beslenebilecek hem de sağlıklı beslenmenin bir lüksiyet olmadığının farkına varabilecek."
+        android:textColor="@color/green"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:paddingTop="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="10dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Eğer öğrencilerinizin Nova Garden ile tanışmasını istiyorsanız, formu doldurarak bizimle iletişime geçebilirsiniz..."
+        android:textColor="@color/green"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:paddingTop="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="10dp"/>
+
+    <ImageSwitcher
+        android:id="@+id/infoimage"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:padding="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <ImageButton
+            android:id="@+id/imageback"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_baseline_navigate_before_24"
+            android:background="@color/backgraundcolor2"
+            android:layout_marginRight="20dp"/>
+
+        <ImageButton
+            android:id="@+id/imagefurther"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_baseline_navigate_next_24"
+            android:background="@color/backgraundcolor2"
+            android:layout_marginLeft="20dp"/>
+
+    </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

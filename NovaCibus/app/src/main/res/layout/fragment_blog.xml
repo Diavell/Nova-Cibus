@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:background="@color/backgraundcolor"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BLOG"
+        android:textColor="@color/yellow"
+        android:textSize="40sp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="14dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/backgraundcolor2"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:paddingTop="20dp"
+                android:src="@drawable/teyze"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:gravity="center"
+                android:paddingTop="16dp"
+                android:textStyle="bold"
+                android:text="ISPANAKLAR MİYASA HALA'DAN"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:paddingTop="16dp"
+                android:paddingBottom="16dp"
+                android:textAlignment="textStart"
+                android:text="Genel Müdürümüz Nazlım Elif Arslan'ın emektar Halası Miyase Hala'nın sizlere diyecekleri var. Küçük üreticileri destekleyen Nova Cibus, bu yolculuğa başlarken hem üreticiyi..."/>
+
+            <Button
+                android:id="@+id/btn_blog"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:background="@color/green"
+                android:layout_gravity="right"
+                android:layout_marginBottom="16dp"
+                android:layout_marginRight="16dp"
+                android:text="Devamını Gör"
+                android:onClick="onClick"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

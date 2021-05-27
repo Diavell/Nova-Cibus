@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".Sepet"
+    android:orientation="vertical"
+    android:background="@color/backgraundcolor2"
+    android:id="@+id/sepetlayout">
+
+    <ImageButton
+        android:id="@+id/buttonback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_arrow_back_24"/>
+
+    <ListView
+        android:id="@+id/VeriListele"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_marginTop="16dp"
+        android:layout_below="@id/buttonback"/>
+
+    <!--<Button
+        android:id="@+id/sil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sil"/>-->
+
+    <Button
+        android:id="@+id/bosalt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sepeti Temizle"
+        android:layout_toRightOf="@id/buttonback"
+        android:layout_marginLeft="160dp"/>
+
+    <LinearLayout
+        android:id="@+id/sepetlayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/backgraundcolor"
+        android:layout_above="@id/ode"
+        android:padding="20dp">
+
+    <TextView
+        android:id="@+id/sepettxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="30sp"
+        android:text="Sepet Toplamı:"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_below="@+id/VeriListele"/>
+
+    <TextView
+        android:id="@+id/sepettoplam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="30sp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/white"
+        android:layout_below="@id/VeriListele"
+        android:layout_toRightOf="@id/sepettxt"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/ode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Alışverişi Tamamla"/>
+
+</RelativeLayout>

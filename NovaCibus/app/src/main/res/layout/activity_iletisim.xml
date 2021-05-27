@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:background="@color/backgraundcolor2"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/text1_iletisim"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="30dp"
+                android:text="İLETİŞİM"
+                android:textColor="@color/green"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text2_iletisim"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="30dp"
+                android:paddingBottom="30dp"
+                android:text="Bize Ulaşın"
+                android:textColor="@color/white"
+                android:textSize="35sp"
+                android:textStyle="bold" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <EditText
+                    android:id="@+id/ad"
+                    android:layout_width="185dp"
+                    android:layout_height="80dp"
+                    android:background="@color/green"
+                    android:hint="Ad"/>
+
+                <EditText
+                    android:id="@+id/soyad"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@color/green"
+                    android:layout_toRightOf="@id/ad"
+                    android:hint="Soyad"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp">
+
+
+                <EditText
+                    android:id="@+id/mail"
+                    android:layout_width="185dp"
+                    android:layout_height="80dp"
+                    android:background="@color/green"
+                    android:hint="E-mail"
+                    android:inputType="textEmailAddress"/>
+
+                <EditText
+                    android:id="@+id/tel"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@color/green"
+                    android:hint="Telefon"
+                    android:inputType="phone"
+                    android:layout_toRightOf="@id/mail"/>
+
+            </RelativeLayout>
+
+            <EditText
+                android:id="@+id/textmes"
+                android:layout_width="380dp"
+                android:layout_height="225dp"
+                android:background="@color/green"
+                android:hint="Mesajınızı buraya yazınız"
+                android:inputType="textMultiLine"
+                android:layout_marginTop="10dp"/>
+
+                <Button
+                    android:id="@+id/gonder"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="@color/white"
+                    android:text="GÖNDER"
+                    android:textStyle="bold"
+                    android:textColor="@color/green"/>
+
+            ></LinearLayout>
+
+        ></ScrollView>
+
+</LinearLayout>

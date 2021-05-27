@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_hakkinda_foreground"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_urunler"
+            android:icon="@drawable/ic_menu_hakkinda_foreground"
+            android:title="Ürünler" />
+        <item
+            android:id="@+id/nav_blog"
+            android:icon="@drawable/ic_menu_hakkinda_foreground"
+            android:title="Blog"/>
+        <item
+            android:id="@+id/nav_yk"
+            android:icon="@drawable/ic_menu_hakkinda_foreground"
+            android:title="Yönetim Kurulu" />
+        <item
+            android:id="@+id/nav_hakkinda"
+            android:icon="@drawable/ic_menu_hakkinda_foreground"
+            android:title="Hakkında" />
+        <item
+            android:id="@+id/nav_okul"
+            android:icon="@drawable/ic_menu_hakkinda_foreground"
+            android:title="İstekte Bulun" />
+        <item
+            android:id="@+id/nav_iletisim"
+            android:icon="@drawable/ic_menu_hakkinda_foreground"
+            android:title="İletişim" />
+    </group>
+</menu>

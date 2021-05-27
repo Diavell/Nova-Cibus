@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".Sepet"
+    android:orientation="vertical"
+    android:background="@color/backgraundcolor2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+    <ImageButton
+        android:id="@+id/okulinfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_info_24"
+        android:background="@color/backgraundcolor2"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OKULUNUZ İÇİN İSTEKTE BULUNUN"
+        android:layout_gravity="center"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/green" />
+
+    <EditText
+        android:id="@+id/okuladi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:hint="Okul Adı"
+        android:inputType="textPersonName"/>
+
+    <EditText
+        android:id="@+id/okuladres"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:hint="Okul Adresi"
+        android:inputType="textPostalAddress"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="İrtibata Geçilecek Kişi;"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="3dp"/>
+
+    <EditText
+        android:id="@+id/irtibatadsoyad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ad Soyad"
+        android:inputType="textPersonName"/>
+
+    <EditText
+        android:id="@+id/irtibatmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="E-Mail"
+        android:layout_marginTop="30dp"
+        android:inputType="textEmailAddress"/>
+
+    <EditText
+        android:id="@+id/irtibattel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Telefon"
+        android:layout_marginTop="30dp"
+        android:inputType="phone"/>
+
+    <Button
+        android:id="@+id/istekgonder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="gönder"
+        android:layout_marginTop="30dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="170dp"
+        android:src="@drawable/logo"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Çocuklar gülsün yeter :)"
+        android:layout_gravity="center"
+        android:textStyle="italic"
+        android:textColor="@color/green"
+        android:textSize="20sp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

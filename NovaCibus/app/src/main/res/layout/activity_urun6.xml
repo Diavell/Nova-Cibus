@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:background="@color/backgraundcolor"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+    <ImageButton
+        android:id="@+id/buttonback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_arrow_back_24"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BÖĞÜRTLEN REÇELİ"
+        android:textSize="50sp"
+        android:textColor="@color/yellow"
+        android:gravity="center"
+        android:layout_marginTop="30dp"/>
+
+    <ImageSwitcher
+        android:id="@+id/urun1Image"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="30dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <ImageButton
+            android:id="@+id/bt_previous"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_baseline_navigate_before_24"
+            android:background="@color/backgraundcolor"
+            android:layout_marginRight="20dp"/>
+
+        <ImageButton
+            android:id="@+id/bt_next"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_baseline_navigate_next_24"
+            android:background="@color/backgraundcolor"
+            android:layout_marginLeft="20dp"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/urun6sepet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/yellow"
+        android:text="Sepete At"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:layout_marginTop="10dp"
+        android:text="Böğürtlen reçeli, bir kahvaltılık çeşididir. Doğal olarak elde edilen böğürtlenlerden yapılan reçellerin insan vücuduna da büyük faydaları bulunmaktadır."/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
